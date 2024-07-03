@@ -16,6 +16,6 @@ const getListStudents = () => [
 		firstName: 'Serena',
 		location: 'San Francisco',
 	},
-]
+];
 
 export default getListStudents;
