@@ -15,7 +15,7 @@ function countStudents(fname) {
       } else {
         let output = '';
         const lines = data.toString().split('\n');
-        for (let i = 0; i < lines.length; i += 1) {
+        for (let i = 0; i < lines.length; i++) {
           if (lines[i]) {
             length += 1;
             const field = lines[i].toString().split(',');
